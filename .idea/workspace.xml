@@ -5,33 +5,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e27e5ee4-1da9-42c7-b69b-c438e4c81403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/HeaderElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/TestLogiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mainTests/SearchBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2m7C15pY6z38nCU9dNw5TUAMQvW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.LoginTest.TR001_loginWithValidData.executor": "Run",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.SearchBookTest.TR001_loginWithValidData.executor": "Run",
+    "JUnit.TestLogiTest.validLogin.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/WorkSpace/Exam/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.SearchBookTest.TR001_loginWithValidData">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loginTests" />
+      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.TR001_loginWithValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loginTests" />
+      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTest" />
+      <option name="METHOD_NAME" value="TR001_loginWithValidData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchBookTest.TR001_loginWithValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mainTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mainTests" />
+      <option name="MAIN_CLASS_NAME" value="mainTests.SearchBookTest" />
+      <option name="METHOD_NAME" value="TR001_loginWithValidData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogiTest.validLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loginTests" />
+      <option name="MAIN_CLASS_NAME" value="loginTests.TestLogiTest" />
+      <option name="METHOD_NAME" value="validLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchBookTest.TR001_loginWithValidData" />
+        <item itemvalue="JUnit.LoginTest.TR001_loginWithValidData" />
+        <item itemvalue="JUnit.TestLogiTest.validLogin" />
+        <item itemvalue="JUnit.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +144,9 @@
       <updated>1726418011905</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

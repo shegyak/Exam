@@ -1,0 +1,26 @@
+#Main page
+
+mainPage.button.увійти = //div[@class='client sign-in']
+mainPage.div.modalWindow = //div[@id='enter-layer']
+mainPage.input.email = //input[@placeholder='Введіть електронну пошту']
+mainPage.input.password = //input[@placeholder='Введіть пароль']
+mainPage.buttonInModalWidow.увійти = //div[@id='enter-layer']//button[@class='butt2']
+mainPage.button.особистий кабінет = //div[@class='client account']
+mainPage.input.search = //input[@placeholder='Що Ви шукаєте?']
+mainPage.button.пошук = //*[@id="header"]//button[@class='butt1']
+
+#Search results page
+
+searchResultsPage.h1.результати пошуку = //h1[@class='main-title']
+searchResultsPage.a.bookTitle = //a[@title= 'Прислуга']
+
+#Book page
+
+bookPage.button.залишитиВідгук = //button[@class='ui-btn-tertiary feedback__btn']
+bookPage.div.modalWindow = //div[@class='modal-content']
+bookPage.input.title = //input[@name='review_title']
+bookPage.textarea.comment. = //textarea[@placeholder='Введіть коментар']
+bookPage.button.створитиВідгук = //button[@class='ui-btn-primary feedback__submit']
+bookPage.textarea.error = //textarea[@class='ui-base-textarea validation-error']
+bookPage.text.error = //p[@class='err-mess__text ui-base-field__message']
+

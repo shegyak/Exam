@@ -1,0 +1,72 @@
+#001 Valid log in
+
+     STR:
+     1. Open main page https://balka-book.com/ua/
+     2. Click on "Увійти" button on main page - Login modal window is opened
+     2. Enter "test.g10.2024@gmail.com" email in input email Login modal window
+     3. Enter "qwer1234#" password in input password on Login modal window
+     4. Click on "Увійти" button on Login modal window
+
+     Expected Result:
+     - Check if the "My Profile" button is visible on Main page
+
+#002 Check if can search the book by title
+
+ Precondition:
+    1. Login with valid credentials
+
+     STR:
+     1. Enter book title - ex. "Прислуга" in input search on Main page
+     2. Click on "Пошук" button on Main page
+
+     Expected Result:
+     - Check if books with the title "Прислуга" are displayed on the Search results page
+     - Check if the count of the books on the Search results page is more than 0
+
+#003 Can't add a book review if mandatory fields are empty
+
+    Precondition:
+    1. Login with valid credentials
+    2. Search the book by title "Прислуга".
+
+    STR:
+    1. Click on the "Прислуга" book in the search results
+    2. Click on the "Залишити відгук" button on the Book page
+    3. Fill in the field "Введіть назву для відгуку" - ex. "Дуже цікава книга"
+    4. Don't fill out the "Введіть текст відгуку" field
+    5. Click on the "Створити відгук" button
+
+    Expected Result:
+    - Check if the "Введіть текст відгуку" field is highlighted in red
+    - Check if the "Введіть текст відгуку" field has the "Обов'язкове поле" message
+
+#004 The book can be added to the basket
+
+    Precondition:
+    1. Login with valid credentials
+    2. Search the book by title "Прислуга".
+
+    STR:
+    1. Click on the "Прислуга" book in the search results
+    2. Click on the "До кошика" button on the Book page
+
+    Expected Result:
+    - Check if the "До кошика" button changed to "У кошику"
+    - Check if the "Прислуга" book is displayed in the basket
+
+#005 Check the book can delete from the basket
+
+    Precondition:
+    1. Login with valid credentials
+    2. Search the book by title "Прислуга".
+    3. Add the "Прислуга" book to the basket
+
+    STR:
+    1. Click on the "Кошик" button in the Header
+    2. Click on the "Видалити все" button in the basket
+    3. Click on the "Ok" button in the modal window
+
+    Expected Result:
+    - Check if the "Прислуга" book is not displayed in the basket
+    - Check if the "Ваш кошик порожній. Не вагайтеся і перегляньте наш каталог, щоб знайти щось гарне для Вас!"
+    message is displayed in the basket
