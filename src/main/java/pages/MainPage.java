@@ -66,6 +66,11 @@ public class MainPage extends ParentPage {
     }
 
     public MainPage clickOnButtonSubmit() {
+        try {
+              Thread.sleep(500);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         clickOnElement(buttonSubmit);
         return this;
     }
@@ -84,12 +89,8 @@ public class MainPage extends ParentPage {
         return this;
     }
 
-    public MainPage clickOnSearchButton() {
+    public SearchPage clickOnSearchButton() {
         clickOnElement(searchButton);
-        return new MainPage(webDriver);
-    }
-
-    public SearchPage checkIsRedirectToSearchPage() {
         return new SearchPage(webDriver);
     }
 

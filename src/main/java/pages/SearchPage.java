@@ -36,4 +36,8 @@ public class SearchPage extends ParentPage {
         Assert.assertTrue("Book with title " + bookTitle + " is not present", getBooksList(bookTitle).size() > 0);
         return this;
     }
+
+    public SearchPage checkIsRedirectToSearchPage() {
+        return new SearchPage(webDriver);
+    }
 }

@@ -23,36 +23,19 @@
      - Check if books with the title "Прислуга" are displayed on the Search results page
      - Check if the count of the books on the Search results page is more than 0
 
-#003 Can't add a book review if mandatory fields are empty
+#003 The book can be added to the basket
 
     Precondition:
     1. Login with valid credentials
     2. Search the book by title "Прислуга".
 
     STR:
-    1. Click on the "Прислуга" book in the search results
-    2. Click on the "Залишити відгук" button on the Book page
-    3. Fill in the field "Введіть назву для відгуку" - ex. "Дуже цікава книга"
-    4. Don't fill out the "Введіть текст відгуку" field
-    5. Click on the "Створити відгук" button
+    1. Click on the "Купити" button in the search results
 
     Expected Result:
-    - Check if the "Введіть текст відгуку" field is highlighted in red
-    - Check if the "Введіть текст відгуку" field has the "Обов'язкове поле" message
-
-#004 The book can be added to the basket
-
-    Precondition:
-    1. Login with valid credentials
-    2. Search the book by title "Прислуга".
-
-    STR:
-    1. Click on the "Прислуга" book in the search results
-    2. Click on the "До кошика" button on the Book page
-
-    Expected Result:
-    - Check if the "До кошика" button changed to "У кошику"
+    - The Basket is opened
     - Check if the "Прислуга" book is displayed in the basket
+    - Check if the "Перейти до оформлення" button is displayed in the basket
 
 #005 Check the book can delete from the basket
 

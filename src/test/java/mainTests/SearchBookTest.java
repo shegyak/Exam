@@ -1,20 +1,34 @@
 package mainTests;
 
 import baseTest.BaseTest;
+import org.junit.Before;
 import org.junit.Test;
-import pages.PageProvider;
+
 
 public class SearchBookTest extends BaseTest {
 
+    private final String BOOK_TITLE = "Прислуга";
 
-    @Test
+    @Before
     public void TR001_loginWithValidData() {
         pageProvider.getMainPage()
-                .openMainPageAndInputTextIntoSearchField("Прислуга")
+                .openMainPageAndClickOnEnterButton()
+                .checkModalWindowIsOpened()
+                .fillFormWithValidCred()
+                .clickOnButtonSubmit()
+                .checkModalWindowIsClosed()
+                .getHeaderElements().checkIsElementVisible()
+        ;
+    }
+
+    @Test
+    public void TR002_searchBook() {
+        pageProvider.getMainPage()
+                .openMainPageAndInputTextIntoSearchField(BOOK_TITLE)
                 .clickOnSearchButton()
                 .checkIsRedirectToSearchPage()
                 .checkIsSearchPageOpened()
-                .checkBookWithTitleIsPresent("Прислуга")
+                .checkBookWithTitleIsPresent(BOOK_TITLE)
         ;
 
 

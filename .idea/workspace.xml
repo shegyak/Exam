@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e27e5ee4-1da9-42c7-b69b-c438e4c81403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/HeaderElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/TestLogiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mainTests/SearchBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mainTests/SearchBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mainTests/SearchBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,7 @@
     "JUnit.LoginTest.TR001_loginWithValidData.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
     "JUnit.SearchBookTest.TR001_loginWithValidData.executor": "Run",
+    "JUnit.SearchBookTest.TR002_searchBook.executor": "Run",
     "JUnit.TestLogiTest.validLogin.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -61,7 +56,12 @@
     "onboarding.tips.debug.path": "C:/WorkSpace/Exam/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SearchBookTest.TR001_loginWithValidData">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WorkSpace\Exam\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SearchBookTest.TR002_searchBook">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
@@ -109,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchBookTest.TR002_searchBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mainTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mainTests" />
+      <option name="MAIN_CLASS_NAME" value="mainTests.SearchBookTest" />
+      <option name="METHOD_NAME" value="TR002_searchBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLogiTest.validLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
@@ -127,8 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchBookTest.TR001_loginWithValidData" />
+        <item itemvalue="JUnit.SearchBookTest.TR002_searchBook" />
         <item itemvalue="JUnit.LoginTest.TR001_loginWithValidData" />
+        <item itemvalue="JUnit.SearchBookTest.TR001_loginWithValidData" />
         <item itemvalue="JUnit.TestLogiTest.validLogin" />
         <item itemvalue="JUnit.LoginTest" />
       </list>
@@ -143,10 +160,21 @@
       <option name="presentableId" value="Default" />
       <updated>1726418011905</updated>
     </task>
+    <task id="LOCAL-00001" summary="Login Test and Search Test">
+      <option name="closed" value="true" />
+      <created>1726599703692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726599703692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Login Test and Search Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Test and Search Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
