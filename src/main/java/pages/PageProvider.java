@@ -14,4 +14,7 @@ public class PageProvider {
         return new MainPage(webDriver);
     }
 
+    public SearchPage getSearchPage() {
+        return new SearchPage(webDriver);
+    }
 }

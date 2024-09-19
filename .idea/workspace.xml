@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e27e5ee4-1da9-42c7-b69b-c438e4c81403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BookPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basketTest/BookIsAddedInBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators" beforeDir="false" afterPath="$PROJECT_DIR$/locators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/qalight.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mainTests/SearchBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mainTests/SearchBookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.BookIsAddedInBasket.TR003_addBookInBasket.executor": "Run",
     "JUnit.LoginTest.TR001_loginWithValidData.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
     "JUnit.SearchBookTest.TR001_loginWithValidData.executor": "Run",
@@ -61,18 +60,19 @@
       <recent name="C:\WorkSpace\Exam\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchBookTest.TR002_searchBook">
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookIsAddedInBasket.TR003_addBookInBasket">
+    <configuration name="BookIsAddedInBasket.TR003_addBookInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loginTests.*" />
+          <option name="PATTERN" value="basketTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="loginTests" />
-      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="basketTest" />
+      <option name="MAIN_CLASS_NAME" value="basketTest.BookIsAddedInBasket" />
+      <option name="METHOD_NAME" value="TR003_addBookInBasket" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookIsAddedInBasket.TR003_addBookInBasket" />
         <item itemvalue="JUnit.SearchBookTest.TR002_searchBook" />
         <item itemvalue="JUnit.LoginTest.TR001_loginWithValidData" />
         <item itemvalue="JUnit.SearchBookTest.TR001_loginWithValidData" />
         <item itemvalue="JUnit.TestLogiTest.validLogin" />
-        <item itemvalue="JUnit.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,13 +168,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726599703692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login Test and Search Test - 1">
+      <option name="closed" value="true" />
+      <created>1726682749839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726682749839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Login Test and Search Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Test and Search Test" />
+    <MESSAGE value="Login Test and Search Test - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Test and Search Test - 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

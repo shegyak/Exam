@@ -40,4 +40,9 @@ public class SearchPage extends ParentPage {
     public SearchPage checkIsRedirectToSearchPage() {
         return new SearchPage(webDriver);
     }
+
+    public BookPage clickOnBookWithTitle(String bookTitle) {
+        clickOnElement(getBooksList(bookTitle).get(0));
+        return new BookPage(webDriver);
+    }
 }

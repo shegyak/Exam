@@ -16,11 +16,6 @@ searchResultsPage.a.bookTitle = //a[@title= 'Прислуга']
 
 #Book page
 
-bookPage.button.залишитиВідгук = //button[@class='ui-btn-tertiary feedback__btn']
-bookPage.div.modalWindow = //div[@class='modal-content']
-bookPage.input.title = //input[@name='review_title']
-bookPage.textarea.comment. = //textarea[@placeholder='Введіть коментар']
-bookPage.button.створитиВідгук = //button[@class='ui-btn-primary feedback__submit']
-bookPage.textarea.error = //textarea[@class='ui-base-textarea validation-error']
-bookPage.text.error = //p[@class='err-mess__text ui-base-field__message']
+bookPage.h2.aboutBook = //h2[@class='secondary-title']
+bookPage.button.купити = //div[@class='offer']//span[text()='Купити']
 
