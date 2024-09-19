@@ -5,7 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Instant;
 import java.util.List;
 
 public class BookPage extends ParentPage {
@@ -26,7 +29,18 @@ public class BookPage extends ParentPage {
     @FindBy(xpath = "//div[@class='active']//div[@class='name']")
     private WebElement bookTitle;
 
+    @FindBy(xpath = "//div[@class='total-amount']//span")
+    private WebElement bookDeleteButton;
+
+    @FindBy(xpath = "//span[@class='confirm-layer clear-all opened']")
+    private WebElement yesNoModalWindow;
+
+    @FindBy(xpath = "//span[@class='confirm-layer clear-all opened']//button[text() = 'Так']")
+    private WebElement buttonYes;
+
     private String bookNameLocator = "//a[text() = '%s']";
+
+    WebDriverWait webDriverWait10;
 
     public BookPage checkIsRedirectToBookPage() {
         isElementVisible(headerAllAboutBook);
@@ -49,6 +63,26 @@ public class BookPage extends ParentPage {
 
     public BookPage checkBookWithTitleIsPresentInBasket(String bookTitle) {
         Assert.assertTrue("Book with title " + bookTitle + " is not present", getBooksList(bookTitle).size() > 0);
+        return this;
+    }
+
+    public BookPage clickOnButtonDeleteInBasket() {
+        clickOnElement(bookDeleteButton);
+        return this;
+    }
+
+    public BookPage checkYesNoModalWindowIsOpened() {
+        isElementVisible(yesNoModalWindow);
+        return this;
+    }
+
+    public BookPage clickOnButtonYesInModalWindow() {
+        clickOnElement(buttonYes);
+        return this;
+    }
+
+    public BookPage checkBasketIsEmpty(String bookTitle) {
+        checkIsElementInVisible(bookDeleteButton);
         return this;
     }
 }

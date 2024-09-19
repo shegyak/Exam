@@ -17,4 +17,8 @@ public class PageProvider {
     public SearchPage getSearchPage() {
         return new SearchPage(webDriver);
     }
+
+    public BookPage getBookPage() {
+        return new BookPage(webDriver);
+    }
 }

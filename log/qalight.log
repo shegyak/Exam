@@ -223,3 +223,101 @@
 2024-18-09 22:19:05   INFO [pages.SearchPage] : Element was clicked
 2024-18-09 22:19:05   INFO [pages.BookPage] : Element was clicked
 2024-18-09 22:19:05   INFO [basketTest.BookIsAddedInBasket] : Browser was closed
+2024-19-09 21:30:47   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 21:30:50   INFO [pages.MainPage] : Main page was opened
+2024-19-09 21:30:50   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:30:51   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 21:30:51   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 21:30:51   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:31:12   INFO [pages.MainPage] : Element is invisible
+2024-19-09 21:31:12   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 21:31:14   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:31:15   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 21:31:15   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:31:15   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:31:35  ERROR [pages.BookPage] : Can not work with element org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Так']' (tried for 10 second(s) with 500 milliseconds interval)
+2024-19-09 21:31:35   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-19-09 21:35:01   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 21:35:04   INFO [pages.MainPage] : Main page was opened
+2024-19-09 21:35:04   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:35:04   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 21:35:04   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 21:35:06   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:35:27   INFO [pages.MainPage] : Element is invisible
+2024-19-09 21:35:27   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 21:35:27   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:35:28   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 21:35:28   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:35:29   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:35:49  ERROR [pages.BookPage] : Can not work with element org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Так']' (tried for 10 second(s) with 500 milliseconds interval)
+2024-19-09 21:35:49   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-19-09 21:37:38   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 21:37:41   INFO [pages.MainPage] : Main page was opened
+2024-19-09 21:37:41   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:37:41   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 21:37:41   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 21:37:42   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:38:07   INFO [pages.MainPage] : Element is invisible
+2024-19-09 21:38:07   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 21:38:07   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:38:08   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 21:38:08   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:38:09   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:38:30  ERROR [pages.BookPage] : Can not work with element org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Так']' (tried for 10 second(s) with 500 milliseconds interval)
+2024-19-09 21:38:30   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-19-09 21:48:39   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 21:48:41   INFO [pages.MainPage] : Main page was opened
+2024-19-09 21:48:41   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:48:42   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 21:48:42   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 21:48:43   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:49:04   INFO [pages.MainPage] : Element is invisible
+2024-19-09 21:49:04   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 21:49:05   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:49:06   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 21:49:06   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:49:06   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:49:27  ERROR [pages.BookPage] : Can not work with element org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Так']' (tried for 10 second(s) with 500 milliseconds interval)
+2024-19-09 21:49:28   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-19-09 21:51:38   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 21:51:41   INFO [pages.MainPage] : Main page was opened
+2024-19-09 21:51:41   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:51:41   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 21:51:41   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 21:51:42   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:52:03   INFO [pages.MainPage] : Element is invisible
+2024-19-09 21:52:03   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 21:52:04   INFO [pages.MainPage] : Element was clicked
+2024-19-09 21:52:05   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 21:52:05   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:52:05   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:52:05   INFO [pages.BookPage] : Element was clicked
+2024-19-09 21:52:06   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-19-09 22:21:07   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 22:21:10   INFO [pages.MainPage] : Main page was opened
+2024-19-09 22:21:10   INFO [pages.MainPage] : Element was clicked
+2024-19-09 22:21:10   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 22:21:11   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 22:21:12   INFO [pages.MainPage] : Element was clicked
+2024-19-09 22:21:33   INFO [pages.MainPage] : Element is invisible
+2024-19-09 22:21:33   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 22:21:34   INFO [pages.MainPage] : Element was clicked
+2024-19-09 22:21:35   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 22:21:36   INFO [pages.BookPage] : Element was clicked
+2024-19-09 22:21:36   INFO [pages.BookPage] : Element was clicked
+2024-19-09 22:21:36   INFO [pages.BookPage] : Element was clicked
+2024-19-09 22:21:36   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-19-09 22:30:36   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-19-09 22:30:39   INFO [pages.MainPage] : Main page was opened
+2024-19-09 22:30:39   INFO [pages.MainPage] : Element was clicked
+2024-19-09 22:30:40   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-19-09 22:30:40   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-19-09 22:30:41   INFO [pages.MainPage] : Element was clicked
+2024-19-09 22:31:02   INFO [pages.MainPage] : Element is invisible
+2024-19-09 22:31:02   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-19-09 22:31:03   INFO [pages.MainPage] : Element was clicked
+2024-19-09 22:31:04   INFO [pages.SearchPage] : Element was clicked
+2024-19-09 22:31:04   INFO [pages.BookPage] : Element was clicked
+2024-19-09 22:31:04   INFO [pages.BookPage] : Element was clicked
+2024-19-09 22:31:05   INFO [pages.BookPage] : Element was clicked
+2024-19-09 22:31:05   INFO [basketTest.BookDeleteFromBasket] : Browser was closed

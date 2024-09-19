@@ -67,7 +67,7 @@ public class MainPage extends ParentPage {
 
     public MainPage clickOnButtonSubmit() {
         try {
-              Thread.sleep(500);
+              Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

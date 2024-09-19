@@ -12,10 +12,14 @@ mainPage.button.пошук = //*[@id="header"]//button[@class='butt1']
 #Search results page
 
 searchResultsPage.h1.результати пошуку = //h1[@class='main-title']
-searchResultsPage.a.bookTitle = //a[@title= 'Прислуга']
+searchResultsPage.a.bookTitle = //a[@title= '%s']
 
 #Book page
 
 bookPage.h2.aboutBook = //h2[@class='secondary-title']
 bookPage.button.купити = //div[@class='offer']//span[text()='Купити']
+bookPage.button.basketWindow = //div[@class='active']//div[@class='name']
+bookPage.button.delete = //div[@class='total-amount']//span
+bookPage.button.yesNoModalWindow = //span[@class='confirm-layer clear-all opened']
+bookPage.button.yesButton = //span[@class='confirm-layer clear-all opened']//button[text() = 'Так']
 
