@@ -5,10 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Instant;
 import java.util.List;
 
 public class BookPage extends ParentPage {
@@ -37,6 +35,9 @@ public class BookPage extends ParentPage {
 
     @FindBy(xpath = "//span[@class='confirm-layer clear-all opened']//button[text() = 'Так']")
     private WebElement buttonYes;
+
+    @FindBy(xpath = "//a[@class='butt2']")
+    private WebElement proceedToCheckoutButton;
 
     private String bookNameLocator = "//a[text() = '%s']";
 
@@ -84,5 +85,10 @@ public class BookPage extends ParentPage {
     public BookPage checkBasketIsEmpty(String bookTitle) {
         checkIsElementInVisible(bookDeleteButton);
         return this;
+    }
+
+    public OrderPage clickOnButtonProceedToCheckout() {
+        clickOnElement(proceedToCheckoutButton);
+        return new OrderPage(webDriver);
     }
 }

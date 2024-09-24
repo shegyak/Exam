@@ -321,3 +321,120 @@
 2024-19-09 22:31:04   INFO [pages.BookPage] : Element was clicked
 2024-19-09 22:31:05   INFO [pages.BookPage] : Element was clicked
 2024-19-09 22:31:05   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-23-09 21:14:51   INFO [basketTest.BookIsAddedInBasket] : Browser was opened
+2024-23-09 21:14:53   INFO [pages.MainPage] : Main page was opened
+2024-23-09 21:14:53   INFO [pages.MainPage] : Element was clicked
+2024-23-09 21:14:53   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-23-09 21:14:53   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-23-09 21:14:54   INFO [pages.MainPage] : Element was clicked
+2024-23-09 21:15:15   INFO [pages.MainPage] : Element is invisible
+2024-23-09 21:15:15   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-23-09 21:15:17   INFO [pages.MainPage] : Element was clicked
+2024-23-09 21:15:18   INFO [pages.SearchPage] : Element was clicked
+2024-23-09 21:15:18   INFO [pages.BookPage] : Element was clicked
+2024-23-09 21:15:18   INFO [basketTest.BookIsAddedInBasket] : Browser was closed
+2024-23-09 21:15:54   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-23-09 21:15:57   INFO [pages.MainPage] : Main page was opened
+2024-23-09 21:15:57   INFO [pages.MainPage] : Element was clicked
+2024-23-09 21:15:57   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-23-09 21:15:57   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-23-09 21:15:59   INFO [pages.MainPage] : Element was clicked
+2024-23-09 21:16:19   INFO [pages.MainPage] : Element is invisible
+2024-23-09 21:16:20   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-23-09 21:16:20   INFO [pages.MainPage] : Element was clicked
+2024-23-09 21:16:21   INFO [pages.SearchPage] : Element was clicked
+2024-23-09 21:16:21   INFO [pages.BookPage] : Element was clicked
+2024-23-09 21:16:22   INFO [pages.BookPage] : Element was clicked
+2024-23-09 21:16:22   INFO [pages.BookPage] : Element was clicked
+2024-23-09 21:16:22   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-24-09 19:30:58   INFO [loginTests.LoginTest] : Browser was opened
+2024-24-09 19:31:01   INFO [pages.MainPage] : Main page was opened
+2024-24-09 19:31:01   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:31:02   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 19:31:02   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 19:31:03   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:31:24   INFO [pages.MainPage] : Element is invisible
+2024-24-09 19:31:24   INFO [loginTests.LoginTest] : Browser was closed
+2024-24-09 19:35:20   INFO [loginTests.LoginTest] : Browser was opened
+2024-24-09 19:35:24   INFO [pages.MainPage] : Main page was opened
+2024-24-09 19:35:24   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:35:24   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 19:35:24   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 19:35:26   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:35:37   INFO [loginTests.LoginTest] : Browser was closed
+2024-24-09 19:39:59   INFO [basketTest.BookIsAddedInBasket] : Browser was opened
+2024-24-09 19:40:02   INFO [pages.MainPage] : Main page was opened
+2024-24-09 19:40:02   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:40:02   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 19:40:03   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 19:40:04   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:40:15   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 19:40:18   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:40:21   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 19:40:21   INFO [pages.BookPage] : Element was clicked
+2024-24-09 19:40:21   INFO [basketTest.BookIsAddedInBasket] : Browser was closed
+2024-24-09 19:40:40   INFO [basketTest.BookDeleteFromBasket] : Browser was opened
+2024-24-09 19:40:43   INFO [pages.MainPage] : Main page was opened
+2024-24-09 19:40:43   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:40:43   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 19:40:43   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 19:40:45   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:40:56   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 19:40:58   INFO [pages.MainPage] : Element was clicked
+2024-24-09 19:41:00   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 19:41:00   INFO [pages.BookPage] : Element was clicked
+2024-24-09 19:41:00   INFO [pages.BookPage] : Element was clicked
+2024-24-09 19:41:00   INFO [pages.BookPage] : Element was clicked
+2024-24-09 19:41:01   INFO [basketTest.BookDeleteFromBasket] : Browser was closed
+2024-24-09 20:37:16   INFO [orderTest.MakeOrderTest] : Browser was opened
+2024-24-09 20:37:20   INFO [pages.MainPage] : Main page was opened
+2024-24-09 20:37:20   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:37:20   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 20:37:20   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 20:37:22   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:37:33   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 20:37:35   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:37:37   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 20:37:37   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:37:38   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:37:48   INFO [pages.OrderPage] : Element is invisible
+2024-24-09 20:37:49   INFO [orderTest.MakeOrderTest] : Browser was closed
+2024-24-09 20:43:56   INFO [orderTest.MakeOrderTest] : Browser was opened
+2024-24-09 20:44:00   INFO [pages.MainPage] : Main page was opened
+2024-24-09 20:44:00   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:44:00   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 20:44:00   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 20:44:01   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:44:13   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 20:44:14   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:44:16   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 20:44:16   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:44:18   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:44:28   INFO [pages.OrderPage] : Element is invisible
+2024-24-09 20:44:28   INFO [orderTest.MakeOrderTest] : Browser was closed
+2024-24-09 20:45:32   INFO [orderTest.MakeOrderTest] : Browser was opened
+2024-24-09 20:45:36   INFO [pages.MainPage] : Main page was opened
+2024-24-09 20:45:36   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:45:37   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 20:45:37   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 20:45:38   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:45:49   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 20:45:51   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:45:53   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 20:45:53   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:45:54   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:45:54   INFO [pages.OrderPage] : Element was clicked
+2024-24-09 20:45:55   INFO [orderTest.MakeOrderTest] : Browser was closed
+2024-24-09 20:51:04   INFO [orderTest.MakeOrderTest] : Browser was opened
+2024-24-09 20:51:07   INFO [pages.MainPage] : Main page was opened
+2024-24-09 20:51:07   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:51:07   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 20:51:07   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 20:51:08   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:51:19   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 20:51:21   INFO [pages.MainPage] : Element was clicked
+2024-24-09 20:51:24   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 20:51:24   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:51:26   INFO [pages.BookPage] : Element was clicked
+2024-24-09 20:51:26   INFO [pages.OrderPage] : Element was clicked
+2024-24-09 20:51:26   INFO [orderTest.MakeOrderTest] : Browser was closed
