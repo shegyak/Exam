@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e27e5ee4-1da9-42c7-b69b-c438e4c81403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/OrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/orderTest/MakeOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators" beforeDir="false" afterPath="$PROJECT_DIR$/locators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/qalight.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BookPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726774435247</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login Test and Search Test - 5">
+      <option name="closed" value="true" />
+      <created>1727200728828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727200728828</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,7 +206,8 @@
     <MESSAGE value="Login Test and Search Test - 1" />
     <MESSAGE value="Login Test and Search Test - 2" />
     <MESSAGE value="Login Test and Search Test - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Test and Search Test - 3" />
+    <MESSAGE value="Login Test and Search Test - 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Test and Search Test - 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

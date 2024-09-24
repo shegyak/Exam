@@ -438,3 +438,29 @@
 2024-24-09 20:51:26   INFO [pages.BookPage] : Element was clicked
 2024-24-09 20:51:26   INFO [pages.OrderPage] : Element was clicked
 2024-24-09 20:51:26   INFO [orderTest.MakeOrderTest] : Browser was closed
+2024-24-09 21:02:14   INFO [orderTest.MakeOrderTest] : Browser was opened
+2024-24-09 21:02:19   INFO [pages.MainPage] : Main page was opened
+2024-24-09 21:02:19   INFO [pages.MainPage] : Element was clicked
+2024-24-09 21:02:20   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 21:02:20   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 21:02:21   INFO [pages.MainPage] : Element was clicked
+2024-24-09 21:02:33   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 21:02:34   INFO [pages.MainPage] : Element was clicked
+2024-24-09 21:02:36   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 21:02:36   INFO [pages.BookPage] : Element was clicked
+2024-24-09 21:02:37   INFO [pages.BookPage] : Element was clicked
+2024-24-09 21:02:37   INFO [pages.OrderPage] : Element was clicked
+2024-24-09 21:02:37   INFO [orderTest.MakeOrderTest] : Browser was closed
+2024-24-09 21:04:23   INFO [orderTest.MakeOrderTest] : Browser was opened
+2024-24-09 21:04:26   INFO [pages.MainPage] : Main page was opened
+2024-24-09 21:04:27   INFO [pages.MainPage] : Element was clicked
+2024-24-09 21:04:27   INFO [pages.MainPage] : test.g10.2024@gmail.com was inputted into element Електронна пошта
+2024-24-09 21:04:27   INFO [pages.MainPage] : 123qwe# was inputted into element Пароль
+2024-24-09 21:04:28   INFO [pages.MainPage] : Element was clicked
+2024-24-09 21:04:39   INFO [pages.MainPage] : Прислуга was inputted into element 
+2024-24-09 21:04:41   INFO [pages.MainPage] : Element was clicked
+2024-24-09 21:04:42   INFO [pages.SearchPage] : Element was clicked
+2024-24-09 21:04:43   INFO [pages.BookPage] : Element was clicked
+2024-24-09 21:04:44   INFO [pages.BookPage] : Element was clicked
+2024-24-09 21:04:44   INFO [pages.OrderPage] : Element was clicked
+2024-24-09 21:04:44   INFO [orderTest.MakeOrderTest] : Browser was closed
