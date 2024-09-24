@@ -37,7 +37,7 @@
     - Check if the "Прислуга" book is displayed in the basket
     - Check if the "Перейти до оформлення" button is displayed in the basket
 
-#005 Check the book can delete from the basket
+#004 Check the book can delete from the basket
 
     Precondition:
     1. Login with valid credentials
@@ -45,11 +45,23 @@
     3. Add the "Прислуга" book to the basket
 
     STR:
-    1. Click on the "Кошик" button in the Header
-    2. Click on the "Видалити все" button in the basket
-    3. Click on the "Ok" button in the modal window
+    1. Click on the "Видалити все" button in the Basket - modal window is opened
+    2. Click on the "Так" button in the modal window
 
     Expected Result:
-    - Check if the "Прислуга" book is not displayed in the basket
-    - Check if the "Ваш кошик порожній. Не вагайтеся і перегляньте наш каталог, щоб знайти щось гарне для Вас!"
-    message is displayed in the basket
+    - Check if the "Видалити все" is not displayed in the basket
+
+#005 Check if the order can't be placed without necessary data
+
+    Precondition:
+    1. Login with valid credentials
+    2. Search the book by title "Прислуга".
+    3. Add the "Прислуга" book to the basket
+
+    STR:
+    1. Click on the "Перейти до оформлення" button in the Basket - Order page is opened
+    2. Do not fill in all required fields
+    2. Click on the "Оформити замовлення" button in the Basket
+
+    Expected Result:
+    - Check if the error message is displayed on the Order page
