@@ -54,7 +54,6 @@ public class CommonActionsWithElements {
 
     public void checkIsElementInVisible (WebElement webElement){
         webDriverWait10.until(ExpectedConditions.invisibilityOf(webElement));
-        //Assert.assertFalse("Element is visible", isElementVisible(webElement));
     }
 
     private void printErrorAndStopTest(Exception e) {

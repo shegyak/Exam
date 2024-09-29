@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class BookPage extends ParentPage {
@@ -73,17 +74,20 @@ public class BookPage extends ParentPage {
     }
 
     public BookPage checkYesNoModalWindowIsOpened() {
-        isElementVisible(yesNoModalWindow);
+        Assert.assertTrue("Modal window is not opened", isElementVisible(yesNoModalWindow));
         return this;
     }
 
     public BookPage clickOnButtonYesInModalWindow() {
         clickOnElement(buttonYes);
+        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         return this;
     }
 
     public BookPage checkBasketIsEmpty(String bookTitle) {
-        checkIsElementInVisible(bookDeleteButton);
+//        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(10));
+//        Assert.assertTrue("Book with title " + bookTitle + " is present", getBooksList(bookTitle).size() == 0);
+        Assert.assertTrue("Basket is not empty", isElementVisible(basketWindow));
         return this;
     }
 

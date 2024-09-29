@@ -9,7 +9,7 @@ public class BookDeleteFromBasket extends BaseTest {
     private final String BOOK_TITLE = "Прислуга";
 
     @Before
-    public void TR001_loginWithValidData() {
+    public void loginSearchAndAddBookInBasket() {
         pageProvider.getMainPage()
                 .openMainPageAndClickOnEnterButton()
                 .checkModalWindowIsOpened()

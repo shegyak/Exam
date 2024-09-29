@@ -9,7 +9,7 @@ public class BookIsAddedInBasket extends BaseTest {
     private final String BOOK_TITLE = "Прислуга";
 
     @Before
-    public void TR001_loginWithValidData() {
+    public void loginWithValidDataAndSearchBook() {
         pageProvider.getMainPage()
                 .openMainPageAndClickOnEnterButton()
                 .checkModalWindowIsOpened()

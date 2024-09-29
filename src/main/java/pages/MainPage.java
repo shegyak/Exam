@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,7 +46,7 @@ public class MainPage extends ParentPage {
     }
 
     public MainPage checkModalWindowIsOpened() {
-        isElementVisible(modalWindow);
+        Assert.assertTrue("Modal window is not opened", isElementVisible(modalWindow));
         return this;
     }
 

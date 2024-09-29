@@ -4,12 +4,12 @@ import baseTest.BaseTest;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MakeOrderTest extends BaseTest {
+public class CheckOrderDataTest extends BaseTest {
 
     private final String BOOK_TITLE = "Прислуга";
 
     @Before
-    public void TR001_loginWithValidData() {
+    public void loginSearchAndAddBookInBasket() {
         pageProvider.getMainPage()
                 .openMainPageAndClickOnEnterButton()
                 .checkModalWindowIsOpened()
@@ -30,7 +30,7 @@ public class MakeOrderTest extends BaseTest {
     }
 
     @Test
-    public void TR005_makeOrder() {
+    public void TR005_orderCanNotBePlacedWithoutNecessaryData() {
         pageProvider.getBookPage()
                 .clickOnButtonProceedToCheckout()
                 .checkIsRedirectToOrderPage()

@@ -1,5 +1,6 @@
 package pages;
 
+import com.beust.ah.A;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -44,7 +45,7 @@ public class OrderPage extends ParentPage {
     }
 
     public OrderPage checkNotitficationFieldSurnameIsEmpty() {
-        isElementVisible(notificationFieldSurnameIsEmpty);
+        Assert.assertTrue("Notification field is invisible", isElementVisible(notificationFieldSurnameIsEmpty));
         return this;
     }
 }

@@ -24,7 +24,7 @@ public class SearchPage extends ParentPage {
 
 
     public SearchPage checkIsSearchPageOpened() {
-        isElementVisible(headerSearchPage);
+        Assert.assertTrue("Search page was not opened", isElementVisible(headerSearchPage));
         return this;
     }
 
