@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -39,6 +40,9 @@ public class BookPage extends ParentPage {
 
     @FindBy(xpath = "//a[@class='butt2']")
     private WebElement proceedToCheckoutButton;
+
+    @FindBy(xpath = "//div[@class='empty']")
+    private WebElement emptyBasket;
 
     private String bookNameLocator = "//a[text() = '%s']";
 
@@ -84,10 +88,11 @@ public class BookPage extends ParentPage {
         return this;
     }
 
+
     public BookPage checkBasketIsEmpty(String bookTitle) {
-//        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(10));
-//        Assert.assertTrue("Book with title " + bookTitle + " is present", getBooksList(bookTitle).size() == 0);
-        Assert.assertTrue("Basket is not empty", isElementVisible(basketWindow));
+        webDriverWait10.until(ExpectedConditions.numberOfElementsToBe(By.xpath(String.format(bookNameLocator, bookTitle)), 0));
+        Assert.assertTrue("Book is visible", getBooksList(bookTitle).size() == 0);
+        Assert.assertFalse("Button is visible", isElementVisible(bookDeleteButton));
         return this;
     }
 

@@ -23,6 +23,7 @@ bookPage.button.delete = //div[@class='total-amount']//span
 bookPage.button.yesNoModalWindow = //span[@class='confirm-layer clear-all opened']
 bookPage.button.yesButton = //span[@class='confirm-layer clear-all opened']//button[text() = 'Так']
 bookPage.button.proceedToCheckout = //a[@class='butt2']
+bookPage.button.кошик порожній = //div[@class='empty']
 
 #Order page
 
@@ -31,4 +32,5 @@ orderPage.input.name = //input[@name= 'firstname']
 orderPage.input.phone = //input[@name= 'phone']
 orderPage.button.оформитиЗамовлення = //button[@class = 'butt2']
 orderPage.div.notification = //div[@class='notification-container bottom']
+
 

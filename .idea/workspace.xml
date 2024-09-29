@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e27e5ee4-1da9-42c7-b69b-c438e4c81403" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators" beforeDir="false" afterPath="$PROJECT_DIR$/locators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/qalight.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CommonActionsWithElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/OrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basketTest/BookDeleteFromBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basketTest/BookDeleteFromBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basketTest/BookIsAddedInBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basketTest/BookIsAddedInBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orderTest/MakeOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orderTest/CheckOrderDataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.BookDeleteFromBasket.TR004_deleteBookFromBasket.executor": "Run",
+    "JUnit.BookDeleteFromBasket.executor": "Run",
     "JUnit.BookIsAddedInBasket.TR003_addBookInBasket.executor": "Run",
     "JUnit.LoginTest.TR001_loginWithValidData.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
@@ -68,6 +61,21 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BookDeleteFromBasket.TR004_deleteBookFromBasket">
+    <configuration name="BookDeleteFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basketTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basketTest" />
+      <option name="MAIN_CLASS_NAME" value="basketTest.BookDeleteFromBasket" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookDeleteFromBasket.TR004_deleteBookFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
@@ -132,29 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchBookTest.TR002_searchBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mainTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mainTests" />
-      <option name="MAIN_CLASS_NAME" value="mainTests.SearchBookTest" />
-      <option name="METHOD_NAME" value="TR002_searchBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BookDeleteFromBasket.TR004_deleteBookFromBasket" />
+        <item itemvalue="JUnit.BookDeleteFromBasket" />
         <item itemvalue="JUnit.CheckOrderDataTest.TR005_orderCanNotBePlacedWithoutNecessaryData" />
         <item itemvalue="JUnit.BookIsAddedInBasket.TR003_addBookInBasket" />
         <item itemvalue="JUnit.LoginTest.TR001_loginWithValidData" />
-        <item itemvalue="JUnit.SearchBookTest.TR002_searchBook" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727201156559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edits">
+      <option name="closed" value="true" />
+      <created>1727611551164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727611551164</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +226,8 @@
     <MESSAGE value="Login Test and Search Test - 3" />
     <MESSAGE value="Login Test and Search Test - 5" />
     <MESSAGE value="Login Test and Search Test - end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Test and Search Test - end" />
+    <MESSAGE value="edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
